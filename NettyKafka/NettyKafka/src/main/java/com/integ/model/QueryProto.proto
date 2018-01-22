@@ -1,0 +1,8 @@
+
+option java_package = "com.protobuf.pack";
+option java_outer_classname = "QueryProto";
+ 
+message QueryParam {
+   optional string queryKey = 1;
+  optional string queryValue = 2;
+}
